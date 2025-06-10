@@ -8,7 +8,7 @@ import './App.css';
 function App() {
 const [robots, setRobots] = useState([])
 const [searchfield, setSearchfield] = useState('')
-const [connt, setCount] = useState(0)
+const [count, setCount] = useState(0)
 
   useEffect(()=> {
     fetch('https://jsonplaceholder.typicode.com/users')
